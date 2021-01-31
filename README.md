@@ -16,3 +16,9 @@ This folder contains the scripts to analyze the simulated main network (at any s
 * analyzeFR.m: to determine the percentage of patterns that induce DGC activity in different firing rate bins
 * compute_classification_error.m: to compute the classification error using the readout network. First run assign_readout_weights.m to learn the weights of the readout network.
 * compute_proj_discriminatoryAxes.m: to project the stable DGC firing rates upon presentation of a pattern onto discriminatory axes
+
+## SimpleNetwork
+This folder contains the scripts to reproduce the results of the simplified (binary) rate network using a hand-made artificial dataset, as well as the scripts to reproduce the artificial datasets themselves.
+### dataset_handmade
+This folder contains the scripts to create the artificial dataset. Run ‘create_dataset.m’ with the wanted parameters, and save the resulting file in the folder.
+* sim_neurogenesis.m: to learn the feedforward weights of the simple network using the artificial dataset. First, pretraining with only two DGCs, then a newborn DGC is introduced and undergoes a two-step maturation. Receptive fields are plotted, as well as the evolution of the norm of the feedforward weight vector onto the newborn DGC and its angle with the center of mass of the novel cluster.
