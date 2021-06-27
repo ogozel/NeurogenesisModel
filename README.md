@@ -1,6 +1,6 @@
 # NeurogenesisModel
 
-This repository contains the code associated with the manuscript at: https://www.biorxiv.org/content/10.1101/704791v4 .
+This repository contains the code associated with the article "A functional model of adult dentate gyrus neurogenesis", eLife 2021;10:e66463. DOI: https://doi.org/10.7554/eLife.66463.
 
 ## MainNetwork
 This folder contains the scripts to reproduce the results of the main (continuous) rate network using the MNIST database of handwritten digits (Y LeCun, C Cortes, CJC Burges, 1999; available at: http://yann.lecun.com/exdb/mnist/). First, create a folder ‘dataset_mnist’ containing ‘mnist144.mat’, a file which contains 12x12 downsampled images from the original 28x28 images by applying a 2x2 mean kernel over all pixels except the two pixels on the borders.
